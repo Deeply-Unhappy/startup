@@ -1,15 +1,6 @@
-# Your startup name here
+# RPS Infinite
 
 [My Notes](notes.md)
-
-A brief description of the application here.
-
-
-> [!NOTE]
->  This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
-
-> [!NOTE]
->  If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
 
 ## 🚀 Specification Deliverable
 
@@ -18,45 +9,56 @@ A brief description of the application here.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The culture behind online gaming, while trending to the complex, still has niches where the simple can shine. This is especially true for games the average individual has an understanding of, like rock, paper, scissors. Users can compete against each other live in a simple game, and have their winrate for  each option (rock, paper, scissors) displayed to them as proof of their mastery of the age old children's game.
 
 ### Design
 
-![Design image](placeholder.png)
+![Main Page](design_image.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The following is a roughed diagram outlining interaction of users with the site.
 
 ```mermaid
 sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
+    actor Player 1
+    actor Player 2
+    Player 1->>Website: Host Game
+    Player 2->>Website: Join Game
+    Website->>Player 2: Game Information (PVP)
+    Website->>Player 1: Game Information (PVP)
 ```
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Account creation and login for account
+- Room hosting and management of personal game
+- Live gameplay against another player (PVP)
+- Tracking wins used for each game option
+- Changing visuals user side based on progress/proficiency
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Page design for login, room catalog, and game room.
+- **CSS** - Will ensure webpage adaptability to differing screen sizes and assist with general qol aesthetic choices in color and space.
+- **React** - Used for login interface, button access for gameplay and room controls, and diplay of gameplay to players.
+- **Service** - Backend services for the following endpoints:
+    - login
+    - game room management
+    - handling player choices correctly
+- **DB/Login** - Database storage and managemenf ro the following:
+    - secure account storage
+    - win tracking
+    - visual asset management
+- **WebSocket** - Reporting to each player their opponent's actions during a game.
 
 ## 🚀 AWS deliverable
 
