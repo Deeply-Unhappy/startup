@@ -15,11 +15,13 @@ This was fairly straightforward, mostly allowing me to familiarize myself with a
 
 ## AWS
 
-No content
+Starightforward, website made things easy to interact with. Will need to make note to self in financial planners to keep track of the resource.
+### Domain Registry
+Cannot register domain on a free account per AWS policy, will need to keep careful track of financial demand for the project from here on.
 
 ## Caddy
 
-No content
+Needed a registered domain name to finish the Caddyfile edit the same way it was shown in course instruction. Could not find resources through personal research that would let me set up a secure connection using only an elastic IPv4.
 
 ## HTML
 
