@@ -25,11 +25,15 @@ Needed a registered domain name to finish the Caddyfile edit the same way it was
 
 ## HTML
 
-No content
+Mostly review from 111, have physical notes on this. No spots to submit the link of the codepen in Canvas, so assumption was made that it was not necessary to reproduce exactly the result the instructions were outlining. The following links demonstrate ability to execute the instructions but do not match expected output.
+[Codepen Exercise - Structure](https://codepen.io/Deeply-Unhappy/pen/MYKWPPJ)
+[Codepen Exercise - Media](https://codepen.io/Deeply-Unhappy/pen/KwVKrNq)
+[Codepen Exercise - Input](https://codepen.io/Deeply-Unhappy/pen/VYewVzo)
 
 ## CSS
 
-No content
+Straightforward system, need to remember to distinguish between 1 and l when reading documentation. Will need to do research personally as to what are best practices for ordering sections of code in CSS.
+[Codepen Exercise](https://codepen.io/Deeply-Unhappy/pen/WbrNYbG)
 
 ## React Part 1: Routing
 
