@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lobby</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .page_container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            width: 200px;
+            border-right: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .sidebar_item {
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .matches {
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .matches_header {
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .match_item {
+            justify-content: left;
+            padding: 5px 0;
+            margin-bottom: 100px;
+        }
+
+        .controls {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .placeholder {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<header>RPS Infinite</header>
+<body>
+<div class="page_container">
+    <div class="sidebar">
+        <div class="sidebar_item">Database Info (Name Display)</div>
+        <div class="sidebar_item">Games_Played</div>
+        <div class="sidebar_item">Winrate</div>
+    </div>
+
+    <div class="main">
+        <div class="matches">
+            <div class="matches_header">
+                <span>Websocket Data (Available Matches)</span>
+            </div>
+            <div class="match_item">Game 1</div>
+            <div class="match_item">Game 2</div>
+            <div class="match_item">Game 3</div>
+        </div>
+
+        <div class="controls">
+            <div class="icon"><img src="./images/rock_placeholder.jpg" style="width:100px;height:100px;"></div>
+            <div class="icon"><img src="./images/paper_placeholder.jpg" style="width:100px;height:100px;"></div>
+            <div class="icon"><img src="./images/scissors_placeholder.jpg" style="width:100px;height:100px;"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
