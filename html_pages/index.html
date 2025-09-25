@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
         }
 
-        header {
+        .top_header {
             font-weight: bold;
             font-size: 24px;
         }
@@ -18,7 +18,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: calc(100vh - 12vh);
+            height: calc(100vh - 18vh);
+        }
+
+        .github_link {
+            justify-content: center;
+            align-items: center;
+            font-size:24px;
         }
 
         form {
@@ -34,7 +40,8 @@
     </style>
 </head>
 <body>
-<header>RPS Infinite</header>
+<header class="top_header">RPS Infinite</header>
+<header><a href="https://github.com/Deeply-Unhappy/startup/tree/main">Github Link - Deeply-Unhappy</a></header>
 <div class="login_section">
     <form action="formSubmit.html" method="post">
         <input type="text" id="text" name="var_user" placeholder="Username (2-13 characters)" pattern="\w{2,16}"/>

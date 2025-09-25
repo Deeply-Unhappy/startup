@@ -70,15 +70,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Pages made for login and game room, current plan is to have the games take place in the same window as lobby selection. This is subject to change if unrealistic to implement.
+- [x] **Proper HTML element usage** - HTML files written with regard to readability. Rubric required elements included.
+- [x] **Links** - Application has two windows; link to lobby included to bypass login. Github link included on lobby page.
+- [x] **Text** - Layout and UI element locations denoted with text.
+- [x] **3rd party API placeholder** - Currently planning on using opensource API by neogeek for lobby/player management [API Github](https://github.com/neogeek/websocket-game-lobby)
+- [x] **Images** - Placeholder icons for game inputs included.
+- [x] **Login placeholder** - Included HTML page for login.
+- [x] **DB data placeholder** - Placeholders included for both display (username display) and storage (user registration).
+- [x] **WebSocket placeholder** - Websocket communication placeholder included for live game selection.
 
 ## 🚀 CSS deliverable
 
