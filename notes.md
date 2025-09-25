@@ -18,6 +18,9 @@ This was fairly straightforward, mostly allowing me to familiarize myself with a
 Starightforward, website made things easy to interact with. Will need to make note to self in financial planners to keep track of the resource.
 ### Domain Registry
 Cannot register domain on a free account per AWS policy, will need to keep careful track of financial demand for the project from here on.
+### Useful Info
+- Key can have unfixable improper permissions if in the windows directory, must move it to the linux home directory and use ~/.ssh to get access
+- Cloned repositories can have files undetectable by wsl; run "sed -i 's/\r$//' file" to fix 
 
 ## Caddy
 
