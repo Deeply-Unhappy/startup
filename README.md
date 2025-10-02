@@ -84,12 +84,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - HTML cleaned up and formatting/classes moved to CSS format via rewrite. CSS content rewritten for visual quality
+- [x] **Navigation elements** - Log Out button added to lobby page, justified by the existence of only one application page outside of Login. Login bypass flavor text changed.
+- [x] **Responsive to window resizing** - Continued usage of flex for resizable pages; all flex formatting moved to CSS
+- [x] **Application elements** - The lobby_and_game page retained the fundamental layout as in the HTML deliverable. Flex formatting refined for clarity and aesthetics, React section of the lobby_and_game page sized to fill a greater proportion of the page.
+- [x] **Application text content** - Text edited to be as specific as possible without use of a database
+- [x] **Application images** - cleaner images inserted in place of old placeholders.
 
 ## 🚀 React part 1: Routing deliverable
 

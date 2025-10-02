@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom, #e0d9e8, #6a5a75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-header {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 1em;
+    color: black;
+    text-align: center;
+}
+
+.github-link {
+    padding-bottom: 1em;
+}
+
+.github-link a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.github-link a:hover {
+    text-decoration: underline;
+}
+
+.login-section {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+.login-form input[type="submit"] {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-quote {
+    padding: 1em;
+    font-style: italic;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
