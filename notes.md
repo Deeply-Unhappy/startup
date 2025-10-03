@@ -41,7 +41,11 @@ Still unable to determine whether space or tab method is preferred for CSS forma
 
 ## React Part 1: Routing
 
-No content
+### Implementation Plans
+- Components: Understandable, but will likely take the bulk of development time for this deliverable.
+- Router: Codepen exercise for this section was possibly better at teaching information presented in "components" [Codepen Exercise - Router](https://codepen.io/Deeply-Unhappy/pen/qEbqOyO)
+- Vite: Helpful in seeing how it all connects, CSS still for styling whole elements/classes, while react works well for manipulating details more flexibly than html alone.
+[Site Image](vite-exercise.png)
 
 ## React Part 2: Reactivity
 
