@@ -47,7 +47,7 @@ Still unable to determine whether space or tab method is preferred for CSS forma
 - Vite: Helpful in seeing how it all connects, CSS still for styling whole elements/classes, while react works well for manipulating details more flexibly than html alone.
 [Site Image](vite-exercise.png)
 ### Site Deployment
-I decided to make a new file to hold the deliverable files, while leaving the original react_update as proof of commit
+I decided to make a new file to hold the deliverable files and act as a framework while working on the bundling.
 
 ## React Part 2: Reactivity
 
