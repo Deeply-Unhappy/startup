@@ -5,10 +5,16 @@
   padding: 0;
 }
 
+#app-root {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e0d9e8, #6a5a75);
+  display: flex;
+  flex-direction: column;
+}
+
 html, body {
   height: 100%;
   min-width: 375px;
-  background: linear-gradient(to bottom, #e0d9e8, #6a5a75);
 }
 
 #app-root {
@@ -49,6 +55,32 @@ html, body {
 
 .nav-link:hover {
   color: rgb(56, 56, 56)
+}
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+
+.login-form input[type="submit"] {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
 }
 
 main {
