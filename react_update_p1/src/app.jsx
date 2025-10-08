@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import { Lobby_and_game } from './lobby_and_game/lobby_and_game';
 import { Login } from './login/login'
+import { Stocks } from './stocks/stocks'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 
@@ -21,6 +22,9 @@ export default function App() {
               <li className="nav-item">
                 <NavLink className='nav-link' to='lobby_and_game'>Lobby</NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className='nav-link' to='stocks'>Stocks</NavLink>
+              </li>
             </ul>
           </nav>
         </header>
@@ -29,6 +33,7 @@ export default function App() {
           <Route path='/' element={<Login />} exact />
           <Route path='/login' element={<Login />} />
           <Route path='/lobby_and_game' element={<Lobby_and_game />} />
+          <Route path='/stocks' element={<Stocks />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
 

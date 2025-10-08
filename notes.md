@@ -47,7 +47,9 @@ Still unable to determine whether space or tab method is preferred for CSS forma
 - Vite: Helpful in seeing how it all connects, CSS still for styling whole elements/classes, while react works well for manipulating details more flexibly than html alone.
 [Site Image](vite-exercise.png)
 ### Site Building with Vite
-I decided to make a new folder to hold the deliverable files and act as a framework while working on the bundling. Static assets were moved to the correct directory, and a favicon was set for the site. Bundling was surprisingly easy, but for sake of navigational clarity, I've opted to change the site layout some, implementing a nav bar to hold what used to be sidebar elements, on principle that it seemed to provide more visual clarity than interaction via sidebar. The sidebar now functions primarily to hold control elements for interacting with the game.
+I decided to make a new folder to hold the deliverable files and act as a framework while working on the bundling. Static assets were moved to the correct directory, and a favicon was set for the site. Bundling was surprisingly easy, but for sake of navigational clarity, I've opted to change the site layout some, implementing a nav bar to hold what used to be sidebar elements, on principle that it seemed to provide more visual clarity than interaction via sidebar. The sidebar now functions primarily to hold control elements for interacting with the game, and only in the lobby/game. A third page was added for [stock market price API](https://fcsapi.com/blog/free-stock-price-api/) functionality per course requrement.
+### Site Deployment
+The key can get lost in the linux environment it is stored in. Run "find ~ -type f \( -name "id_rsa" -o -name "*.pem" -o -name "*_key*" \)" to find their location for deployment script.
 
 ## React Part 2: Reactivity
 

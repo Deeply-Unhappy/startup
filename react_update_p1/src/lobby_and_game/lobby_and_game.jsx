@@ -5,9 +5,18 @@ export function Lobby_and_game() {
   return (
     <main className="lobby-layout">
       <aside className="sidebar fixed-left">
-        <div className="icon"><img src="/rock_pretty.png" alt="Rock" /></div>
-        <div className="icon"><img src="/paper_pretty.png" alt="Paper" /></div>
-        <div className="icon"><img src="/scissors_pretty.png" alt="Scissors" /></div>
+        <div className="sidebar-item">
+          John Doe
+        </div>
+        <button className="icon-button">
+          <img src="/rock_pretty.png" alt="Rock" />
+        </button>
+        <button className="icon-button">
+          <img src="/paper_pretty.png" alt="Paper" />
+        </button>
+        <button className="icon-button">
+          <img src="/scissors_pretty.png" alt="Scissors" />
+        </button>
       </aside>
 
       <section className="matches">
