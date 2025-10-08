@@ -37,7 +37,6 @@ Mostly review from 111, have physical notes on this. No spots to submit the link
 
 Straightforward system, need to remember to distinguish between 1 and l when reading documentation. Will need to do research personally as to what are best practices for ordering sections of code in CSS.
 - [Codepen Exercise](https://codepen.io/Deeply-Unhappy/pen/WbrNYbG)
-Still unable to determine whether space or tab method is preferred for CSS formatting, opted for consistent tab usage, will need to look up.
 
 ## React Part 1: Routing
 
