@@ -1,0 +1,28 @@
+.heading-text {
+  margin-bottom: 1.5rem;
+  color: black;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stock-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.stock-item {
+  margin: 0 2rem;
+}
+
+.stock-value {
+  white-space: nowrap;
+  color: black;
+  font-size: 1.1rem;
+}

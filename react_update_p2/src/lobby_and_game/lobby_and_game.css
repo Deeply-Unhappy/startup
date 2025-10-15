@@ -1,0 +1,68 @@
+.lobby-layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 120px;
+  height: calc(100vh - 80px);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.sidebar-item {
+  background: none;
+  border: none;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+}
+
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.icon-button img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.matches {
+  margin-left: 120px;
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.matches_header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.match {
+  display: flex;
+  padding: 8px 0;
+  border-bottom: 1px solid white;
+  color: black;
+  cursor: pointer;
+  align-items: left;
+}
